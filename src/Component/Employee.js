@@ -1,6 +1,6 @@
 import React from "react";
 
-function Naruto(props) {
+function Employee(props) {
   return (
     <>
       <div>{props.name}</div>
@@ -11,4 +11,4 @@ function Naruto(props) {
   );
 }
 
-export default Naruto;
+export default Employee;

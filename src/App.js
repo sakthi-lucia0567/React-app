@@ -1,17 +1,26 @@
 import React from "react";
-import Naruto from "./Component/Naruto";
+import Employee from "./Component/Employee";
+import { useState } from "react";
 
 function App() {
   const hey = true;
+  const [role, setRole] = useState("dev");
 
   return (
     <div className="App">
       {console.log("Log")}
       {hey ? (
         <>
-          <Naruto name="Naruto" role="Hokage" />
-          <Naruto name="boru" />
-          <Naruto name="Sho" />
+          <input
+            type="text"
+            onChange={(e) => {
+              console.log(e.target.value);
+              setRole(e.target.value);
+            }}
+          />
+          <Employee name="Cellva" role="Stupid" />
+          <Employee name="Vikey" role={role} />
+          <Employee name="Sakti" />
         </>
       ) : (
         <p>Hello Sho</p>
