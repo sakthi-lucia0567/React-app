@@ -1,3 +1,5 @@
+import "./index.css";
+
 import React from "react";
 import Employee from "./Component/Employee";
 import { useState } from "react";
@@ -7,7 +9,7 @@ function App() {
   const [role, setRole] = useState("dev");
 
   return (
-    <div className="App">
+    <div className="App text-black">
       {console.log("Log")}
       {hey ? (
         <>
