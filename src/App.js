@@ -2,17 +2,16 @@ import React from "react";
 import Naruto from "./Component/Naruto";
 
 function App() {
-  const hey = false;
+  const hey = true;
 
   return (
     <div className="App">
       {console.log("Log")}
       {hey ? (
         <>
-          <Naruto />
-          <Naruto />
-          <Naruto />
-          <Naruto />
+          <Naruto name="Naruto" role="Hokage" />
+          <Naruto name="boru" />
+          <Naruto name="Sho" />
         </>
       ) : (
         <p>Hello Sho</p>
