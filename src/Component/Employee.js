@@ -8,7 +8,7 @@ function Employee(props) {
         <img
           className="block mx-auto  w-36 h-36 rounded-full rounded-full sm:mx-0 sm:shrink-0"
           src={props.img}
-          alt="Woman's Face"
+          alt="Employee image"
         />
         <div className="text-center space-y-2 sm:text-left">
           <div className="space-y-0.5">
