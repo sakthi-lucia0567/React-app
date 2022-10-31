@@ -32,10 +32,7 @@ function EditEmployee(props) {
           <form id="editModel" className="w-full max-w-sm">
             <div className="md:flex md:items-center mb-6">
               <div className="md:w-1/3">
-                <label
-                  className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-                  for="name"
-                >
+                <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
                   Full Name
                 </label>
               </div>
@@ -45,15 +42,15 @@ function EditEmployee(props) {
                   id="name"
                   type="text"
                   value={name}
+                  onChange={(e) => {
+                    setName(e.target.value);
+                  }}
                 />
               </div>
             </div>
             <div className="md:flex md:items-center mb-6">
               <div className="md:w-1/3">
-                <label
-                  className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-                  for="role"
-                >
+                <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
                   Role
                 </label>
               </div>
@@ -63,6 +60,9 @@ function EditEmployee(props) {
                   id="role"
                   type="text"
                   value={role}
+                  onChange={(e) => {
+                    setRole(e.target.value);
+                  }}
                 />
               </div>
             </div>
