@@ -8,7 +8,7 @@ function Employee(props) {
         <img
           className="block mx-auto  w-36 h-36 rounded-full rounded-full sm:mx-0 sm:shrink-0"
           src={props.img}
-          alt="Employee image"
+          alt="Employee"
         />
         <div className="text-center space-y-2 sm:text-left">
           <div className="space-y-0.5">
@@ -16,7 +16,7 @@ function Employee(props) {
             <p className="text-slate-500 font-medium">{props.role}</p>
           </div>
 
-          <EditEmployee />
+          <EditEmployee name={props.name} role={props.role} />
         </div>
       </div>
     </>

@@ -15,28 +15,28 @@ function App() {
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
-      name: "cellva",
+      name: "vikey",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
-      name: "cellva",
+      name: "selva",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
-      name: "cellva",
+      name: "sakthi",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
-      name: "cellva",
+      name: "kutty",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
-      name: "cellva",
-      role: "senior dev",
+      name: "Mini",
+      role: "dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
   ]);
