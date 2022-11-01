@@ -54,7 +54,6 @@ function App() {
       return employee;
     });
     setEmployees(updateEmployees);
-    console.log("Update employee inside of app.js");
   }
 
   return (
