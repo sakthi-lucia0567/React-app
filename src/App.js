@@ -6,61 +6,71 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 function App() {
-  const hey = true;
+  const showEmployees = true;
   const [role, setRole] = useState("developer");
   const [employees, setEmployees] = useState([
     {
+      id: 1,
       name: "cellva",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
+      id: 2,
       name: "vikey",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
+      id: 3,
       name: "selva",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
+      id: 4,
       name: "sakthi",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
+      id: 5,
       name: "kutty",
       role: "senior dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
     {
+      id: 6,
       name: "Mini",
       role: "dev",
       img: "https://getwallpapers.com/wallpaper/full/d/c/c/1322240-naruto-uzumaki-wallpaper-2560x2048-notebook.jpg",
     },
   ]);
 
+  function updateEmployee(id, newName, newRole) {
+    console.log("Update employee inside of app.js");
+  }
+
   return (
     <div className="App text-black">
-      {hey ? (
+      {showEmployees ? (
         <>
           <div className="flex flex-wrap justify-center">
             {employees.map((employee) => {
               console.log(employees);
               return (
                 <Employee
-                  key={uuidv4()}
                   name={employee.name}
                   role={employee.role}
                   img={employee.img}
+                  updateEmployee={updateEmployee}
                 />
               );
             })}
           </div>
         </>
       ) : (
-        <p>Hello Sho</p>
+        <p>Employees not printed</p>
       )}
     </div>
   );
