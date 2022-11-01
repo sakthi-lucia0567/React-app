@@ -47,7 +47,13 @@ function App() {
   ]);
 
   function updateEmployee(id, newName, newRole) {
-    console.log("Update employee inside of app.js");
+    const updateEmployees = employees.map((employee) => {
+      if (id === employee.id) {
+        return { ...employee, name: newName, role: newRole };
+      }
+      return employee;
+    });
+    setEmployees(updateEmployees);
   }
 
   return (
