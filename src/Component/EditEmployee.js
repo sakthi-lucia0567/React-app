@@ -32,7 +32,7 @@ function EditEmployee(props) {
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              console.log("edit employee");
+              handleClose();
               props.updateEmployee(props.id, name, role);
             }}
             id="editModel"
