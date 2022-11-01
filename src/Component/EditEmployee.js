@@ -33,7 +33,7 @@ function EditEmployee(props) {
             onSubmit={(e) => {
               e.preventDefault();
               console.log("edit employee");
-              props.updateEmployee();
+              props.updateEmployee(props.id, name, role);
             }}
             id="editModel"
             className="w-full max-w-sm"
