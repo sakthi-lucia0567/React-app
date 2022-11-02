@@ -58,6 +58,16 @@ function App() {
     setEmployees(updateEmployees);
   }
 
+  function newEmployee(name, role, img) {
+    const newEmployee = {
+      id: uuidv4(),
+      name: name,
+      role: role,
+      img: img,
+    };
+    setEmployees([...employees, newEmployee]);
+  }
+
   return (
     <div className="App text-black">
       {showEmployees ? (
@@ -77,7 +87,7 @@ function App() {
               );
             })}
           </div>
-          <AddEmployee />
+          <AddEmployee newEmployee={newEmployee} />
         </>
       ) : (
         <p>Employees not printed</p>
