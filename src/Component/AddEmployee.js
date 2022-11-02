@@ -1,10 +1,9 @@
-import React from "react";
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 
-function AddEmployee() {
-  const [name, setName] = useState(props.name);
-  const [role, setRole] = useState(props.role);
+function AddEmployee(props) {
+  const [name, setName] = useState("");
+  const [role, setRole] = useState("");
 
   const [show, setShow] = useState(false);
 
@@ -17,7 +16,7 @@ function AddEmployee() {
         onClick={handleShow}
         className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
       >
-        Update
+        + Add Employee
       </button>
 
       <Modal
@@ -34,7 +33,7 @@ function AddEmployee() {
             onSubmit={(e) => {
               e.preventDefault();
               handleClose();
-              props.updateEmployee(props.id, name, role);
+              props.addEmployee(props.id, name, role);
             }}
             id="editModel"
             className="w-full max-w-sm"

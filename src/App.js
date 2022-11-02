@@ -3,6 +3,8 @@ import "./index.css";
 import React from "react";
 import Employee from "./Component/Employee";
 import { useState } from "react";
+import AddEmployee from "./Component/AddEmployee";
+import { v4 as uuidv4 } from "uuid";
 
 function App() {
   const showEmployees = true;
@@ -75,6 +77,7 @@ function App() {
               );
             })}
           </div>
+          <AddEmployee />
         </>
       ) : (
         <p>Employees not printed</p>
