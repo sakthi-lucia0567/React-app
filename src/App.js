@@ -71,7 +71,7 @@ function App() {
   }
 
   return (
-    <div className="App text-black">
+    <div className="App bg-gray-300 min-h-screen text-black">
       <Header />
       {showEmployees ? (
         <>
