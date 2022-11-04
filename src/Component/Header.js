@@ -99,6 +99,7 @@ export default function Header(props) {
         </>
       )}
       {props.children}
+      <footer>Hello</footer>
     </Disclosure>
   );
 }
