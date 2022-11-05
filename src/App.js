@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Header>
         <Routes>
+          {/* hello */}
           <Route path="/Employees" element={<Employees />} />
           <Route path="/Customer" element={<Customer />} />
         </Routes>
