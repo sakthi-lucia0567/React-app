@@ -8,7 +8,6 @@ import Customer from "./pages/Customer";
 
 function App() {
   return (
-    // hello0
     <BrowserRouter>
       <Header>
         <Routes>
