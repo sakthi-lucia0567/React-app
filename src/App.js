@@ -9,8 +9,6 @@ import Customer from "./pages/Customer";
 function App() {
   return (
     <BrowserRouter>
-      {/* Hello World */}
-      {/* Baaka Dummy */}
       <Header>
         <Routes>
           <Route path="/Employees" element={<Employees />} />
