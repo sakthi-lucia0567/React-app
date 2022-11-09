@@ -75,7 +75,7 @@ export default function Header(props) {
               </div>
             </div>
           </div>
-
+          console.log("Hello")
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
