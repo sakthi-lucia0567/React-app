@@ -8,6 +8,7 @@ import Customer from "./pages/Customer";
 
 function App() {
   console.log("hello world");
+  console.log("hello world2");
   return (
     <BrowserRouter>
       <Header>
