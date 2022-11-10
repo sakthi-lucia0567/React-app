@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Customer from "./pages/Customer";
 
 function App() {
+  console.log("hello world");
   return (
     <BrowserRouter>
       <Header>
