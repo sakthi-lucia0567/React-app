@@ -15,6 +15,7 @@ function Employees() {
    * todo : do some productie
    * ? do we need to do anything after this
    * ! code everyday
+   * ! use this method
    *
    */
 
