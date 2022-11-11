@@ -10,6 +10,13 @@ import Header from "../Component/Header";
 
 function Employees() {
   const showEmployees = true;
+  /**
+   * ! show some errors
+   * todo : do some productie
+   * ? do we need to do anything after this
+   *
+   */
+
   const [role, setRole] = useState("developer");
   const [employees, setEmployees] = useState([
     {
