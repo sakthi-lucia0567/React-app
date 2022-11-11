@@ -12,10 +12,10 @@ function Employees() {
   const showEmployees = true;
   /**
    * ! show some errors
-   * todo : do some productie
+   * todo : do some productive
    * ? do we need to do anything after this
    * ! code everyday
-   * ! use this method
+   *
    *
    */
 
