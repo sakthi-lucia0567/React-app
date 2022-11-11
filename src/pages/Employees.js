@@ -14,7 +14,6 @@ function Employees() {
    * ! show some errors
    * todo : do some productive
    * ? do we need to do anything after this
-   * ! code everyday
    *
    *
    */
