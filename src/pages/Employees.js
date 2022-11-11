@@ -9,14 +9,14 @@ import { v4 as uuidv4 } from "uuid";
 import Header from "../Component/Header";
 
 function Employees() {
+  const showEmployees = true;
   /**
-   * ! do we need to check
-   * ? hello world
-   * todo: yes this is intrusion
+   * ! show some errors
+   * todo : do some productie
+   * ? do we need to do anything after this
    *
    */
 
-  const showEmployees = true;
   const [role, setRole] = useState("developer");
   const [employees, setEmployees] = useState([
     {
