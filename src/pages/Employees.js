@@ -11,7 +11,7 @@ import Header from "../Component/Header";
 function Employees() {
   const showEmployees = true;
   /**
-   * ! show some errors
+   *
    *
    *
    *
