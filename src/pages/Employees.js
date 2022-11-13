@@ -18,7 +18,6 @@ function Employees() {
        * ! hello world
        * ? what is this anyway..?
        * todo :  todo improve myself
-       * ! this is me.
        *
        */
       id: 1,
