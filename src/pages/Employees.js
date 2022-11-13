@@ -14,11 +14,6 @@ function Employees() {
   const [role, setRole] = useState("developer");
   const [employees, setEmployees] = useState([
     {
-      /**
-       * ! hello world
-       * ? what is this anyway..?
-       *
-       */
       id: 1,
       name: "cellva",
       role: "senior dev",
