@@ -17,7 +17,6 @@ function Employees() {
       /**
        * ! hello world
        * ? what is this anyway..?
-       * todo :  todo improve myself
        *
        */
       id: 1,
