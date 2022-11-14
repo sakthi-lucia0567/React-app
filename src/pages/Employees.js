@@ -17,8 +17,7 @@ function Employees() {
       /**
        * ! todo : sakthi
        * todo : hello
-       * ! made each
-       * ? what should we do
+       *
        */
       id: 1,
       name: "cellva",
