@@ -16,7 +16,7 @@ function Employees() {
     {
       /**
        * hello world
-       * !hello world
+      \
        */
       id: 1,
       name: "cellva",
